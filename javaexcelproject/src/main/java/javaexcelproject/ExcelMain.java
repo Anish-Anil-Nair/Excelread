@@ -6,7 +6,7 @@ public class ExcelMain{
 public static void main(String[] args)throws IOException {
 String s=Excelread.readStringData(1,1);
 System.out.println(s);
-String s1=Excelread.readIntegerData(1,0);
+String s1=Excelread.readIntegerData(1,0); // Value passed
 System.out.println(s1);
 }
 }
